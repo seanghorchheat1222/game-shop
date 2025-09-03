@@ -41,13 +41,14 @@
 }
 
 .btnAddtocart{
-  width: 130px;
+  width: 120px;
   height: 40px;
   color: rgb(255, 255, 255);
   font-weight: bold;
   background-color: #B97A42;
   border: none;
   transition: all 0.5s ease;
+  font-size: 14px;
 }
 
 .btnAddtocart:hover{
