@@ -228,6 +228,8 @@ ul li{
 
 }
 
+
+
 @media screen and (max-width: 1399px) and (min-width: 1199.5px){
  ul li{
   font-size: 20px
@@ -413,6 +415,14 @@ div .bi-search{
   margin-top: -100px;
 }
 
+.hamburger-open::-webkit-scrollbar {
+  width: 5px;
+}
+
+.hamburger-open::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
+}
 
 
 .close-wrapper-hamburger span{
