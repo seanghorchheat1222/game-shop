@@ -1,0 +1,322 @@
+:root{
+  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  color: #B97A42
+}
+
+.title p{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-align: center;
+}
+
+.btnSubbar{
+  gap: 10px
+}
+
+.btnSort{
+  width: 60px;
+  height: 25px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  cursor: pointer;
+  transition:all 0.5s ease
+}
+
+.btnSort h5{
+  color: black;
+  font-weight: bold;
+  margin-top: 7px;
+  font-size: 16px;
+}
+
+.btnSort:hover{
+  background-color: black;
+  border: 1px solid rgb(255, 255, 255);
+
+}
+
+.btnSort:Hover h5{
+  color: rgb(255, 255, 255);
+  transition: transform 0.5s ease;
+}
+
+.btnRecentlyadded{
+  width: 150px;
+  height: 25px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  cursor: pointer;
+  transition:all 0.5s ease
+}
+
+.btnRecentlyadded h5{
+  color: black;
+  font-weight: bold;
+  margin-top: 7px;
+  font-size: 16px;
+}
+
+
+.btnRecentlyadded:hover{
+  background-color: black;
+  border: 1px solid rgb(255, 255, 255);
+
+}
+
+.btnRecentlyadded:Hover h5{
+  color: rgb(255, 255, 255);
+  transition: transform 0.5s ease;
+}
+
+
+.btnName{
+  width: 70px;
+  height: 25px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  cursor: pointer;
+  transition:all 0.5s ease
+}
+
+.btnName h5{
+  color: black;
+  font-weight: bold;
+  margin-top: 7px;
+  font-size: 16px;
+}
+
+.btnName:hover{
+  background-color: black;
+  border: 1px solid rgb(255, 255, 255);
+
+}
+
+.btnName:Hover h5{
+  color: rgb(255, 255, 255);
+  transition: transform 0.5s ease;
+}
+
+
+.btnLowtohigh{
+  width: 160px;
+  height: 25px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  cursor: pointer;
+  transition:all 0.5s ease
+}
+
+.btnLowtohigh h5{
+  color: black;
+  font-weight: bold;
+  margin-top: 7px;
+  font-size: 16px;
+}
+
+.btnLowtohigh:hover{
+  background-color: black;
+  border: 1px solid rgb(255, 255, 255);
+
+}
+
+.btnLowtohigh:Hover h5{
+  color: rgb(255, 255, 255);
+  transition: transform 0.5s ease;
+}
+
+.btnHightolow{
+  width: 160px;
+  height: 25px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  cursor: pointer;
+  transition:all 0.5s ease
+}
+
+.btnHightolow h5{
+  color: black;
+  font-weight: bold;
+  margin-top: 7px;
+  font-size: 16px;
+}
+
+.btnHightolow:hover{
+  background-color: black;
+  border: 1px solid rgb(255, 255, 255);
+
+}
+
+.btnHightolow:Hover h5{
+  color: rgb(255, 255, 255);
+  transition: transform 0.5s ease;
+}
+
+.btnAddalltocart{
+  display: flex;
+  width: 300px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color:#B97A42;
+  border: none;
+  transition: all 0.4s ease;
+}
+
+.btnAddalltocart i{
+  color: rgb(255, 255, 255)
+}
+
+.btnAddalltocart:hover i{
+  transform: rotate(0deg);
+}
+
+.btnAddalltocart h5{
+  font-weight: bold;
+  margin-top: 10px;
+  color: rgb(255, 255, 255)
+}
+
+.btnAddalltocart:hover{
+  background-color:rgb(0, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
+  transform: transform 0.4s ease
+}
+
+.btnAddalltocart:hover i,
+.btnAddalltocart:hover h5{
+  color: rgb(255, 255, 255);
+  transform: transform 0.4s ease
+}
+
+.sponser{ 
+  gap: 10px
+}
+
+.sponser h5{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 368.5px) {
+  .sponser h5{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 10px;
+  margin-top: 10px;
+}
+}
+
+.bgImageSposner{
+  width: 100%;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.925);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.bgImageSposner p{
+margin-top: 1px;
+}
+
+.bgImage{
+  width: 100%;
+  height:100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.context h2{
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.context p{
+  color: rgb(255, 255, 255);
+  opacity: 0.6;
+}
+
+.bgbtnicdc{
+  width: 130px !important;
+  height: 40px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width:449.5px) {
+  .bgbtnicdc{
+  width: 100% !important;
+  height: 40px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+}
+
+.bgbtnicdc h5{
+ margin-top: 5px;
+}
+
+.bgbtnicdc:hover i{
+ cursor: pointer;
+}
+
+.bgbtnicdc h5,
+.bgbtnicdc i{
+  color: rgb(255, 255, 255);
+}
+
+.bgicon{
+  background-color: rgb(0, 0, 0);
+  width: 40px !important;
+  height: 40px !important;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.bgicon:hover{
+  background-color:#B97A42;
+  transform:transition  0.4s ease;
+}
+
+.bgicon i{
+  color: white;
+}
+
+
+
+
